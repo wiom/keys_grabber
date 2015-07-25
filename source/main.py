@@ -6,9 +6,10 @@ import os
 from subprocess import Popen, PIPE
 
 import progressbar
-
 import grabber
-import checker
+from source import checker
+
+
 
 # global variables
 cwd = os.getcwd()
