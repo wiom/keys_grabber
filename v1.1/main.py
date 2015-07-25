@@ -112,7 +112,7 @@ while msg:
         for i in range(0, interval):
             progress.update(i)
             time.sleep(1)
-        print "\nChecking..."
+        print("\nChecking...")
 
         keys = work.check()
         if keys:
