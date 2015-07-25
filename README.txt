@@ -1,3 +1,3 @@
 KeysGrabber v1.1
-The script checks for key online rsload and if there is trying to activate your account cyberghost. For use should be
-placed in an account cyberghost cg_logins.txt folder and run the script.
+Скрипт проверяет наличие ключей на сайте rsload и если они там есть. пытается активировать аккаунт cyberghost.
+Для запуска нужено поместить аккаунты cyberghost в папку cg_logins.txt.
