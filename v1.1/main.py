@@ -1,13 +1,12 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import time
 import os
+import progressbar
 from subprocess import Popen, PIPE
 
-import progressbar
 import grabber
-from source import checker
+import checker
 
 
 
@@ -107,12 +106,12 @@ user_data = change_cg_login()
 work.run()
 
 while msg:
-    print('\nWaiting... [Hit Ctrl-C to exit]')
+    print '\nWaiting... [Hit Ctrl-C to exit]'
     try:
         for i in range(0, interval):
             progress.update(i)
             time.sleep(1)
-        print("\nChecking...")
+        print "\nChecking..."
 
         keys = work.check()
         if keys:
